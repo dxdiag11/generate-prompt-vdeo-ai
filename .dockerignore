@@ -1,0 +1,28 @@
+# Versioning and metadata
+.git
+.gitignore
+.dockerignore
+
+# Build dependencies
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment (contains sensitive data)
+.env
+.env.*
+
+# Files not required for production
+README.md
+Dockerfile
+docker-compose.yml
+*.log
+*.md
+.next/cache
+
+# Development tools
+.vscode
+.idea
+*.sublime-workspace
+*.sublime-project 
